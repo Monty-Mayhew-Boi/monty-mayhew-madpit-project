@@ -292,7 +292,7 @@ namespace myTiles {
             case "tile18":return tile18;
             case "tile25":
             case "tile19":return tile19;
-            case "tile18":
+            case "tile26":
             case "tile2":return tile2;
         }
         return null;
