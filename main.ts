@@ -1,4 +1,4 @@
-scene.onOverlapTile(SpriteKind.Player, assets.tile`tile19`, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, assets.tile`tile3`, function (sprite, location) {
     info.stopCountdown()
     game.showLongText("Level 1 Complete", DialogLayout.Bottom)
     mySprite.startEffect(effects.halo)
@@ -7,7 +7,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`tile19`, function (sprite, lo
     tiles.setTilemap(tilemap`level4`)
     tiles.placeOnRandomTile(mySprite, assets.tile`tile17`)
 })
-scene.onOverlapTile(SpriteKind.Player, assets.tile`tile26`, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, assets.tile`tile2`, function (sprite, location) {
     tiles.setTilemap(tilemap`level9`)
     info.stopCountdown()
     info.startCountdown(12)
